@@ -1,0 +1,42 @@
+# --- material that must never be published ----------------------------------
+# Raw Skyrim textures harvested into k2-texture-pack/raw/: 41k files, 12 GB, each
+# one the property of its own mod author. Local working material only; the
+# inventory and the provenance list are tracked instead.
+k2-texture-pack/raw/*/
+k2-texture-pack/raw/MANIFEST.csv
+
+# Verbatim game data extracted from KOTOR 2 (Obsidian / LucasArts / Aspyr).
+# The mods ship the CHANGES, never the originals: run each mod's build script to
+# regenerate the modified 2DA from your own installation.
+**/stock/*.2da
+k2-directional-movement/Override/*.2da
+
+# Raw disassembly listings of swkotor2.exe. The findings (addresses, structures,
+# call sites) live in the design documents; the dumps themselves are derived from
+# a copyrighted binary and stay local.
+**/docs/re/*.asm
+
+# Copies of third-party projects kept locally for reference:
+#   ref/reone    https://github.com/seedhartha/reone
+#   ref/kotorjs  https://github.com/KobaltBlu/KotOR.js
+ref/
+
+# A 4.8 MB dump of every file path under the local D:\mods folder. Personal disk
+# inventory, not part of the modpack.
+docs/2026-09-02-catalogo-mod-skyrim-riferimenti.md
+
+# --- ordinary build and tool noise -------------------------------------------
+.venv/
+.vscode/
+__pycache__/
+*.pyc
+out/
+build/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.ncs
+*.bak-*
