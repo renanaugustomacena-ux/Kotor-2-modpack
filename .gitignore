@@ -25,6 +25,11 @@ ref/
 # inventory, not part of the modpack.
 docs/2026-09-02-catalogo-mod-skyrim-riferimenti.md
 
+# NVIDIA's Material Definition Language SDK, 311 MB, downloaded 2026-09-08 by
+# mistake: it has nothing to do with KOTOR's MDL model format despite the name.
+# The tools that actually read KOTOR MDL are KotorBlender and MDLedit.
+MDL-SDK-master/
+
 # --- ordinary build and tool noise -------------------------------------------
 .venv/
 .vscode/
