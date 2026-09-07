@@ -14,10 +14,14 @@ moderno e mappe che sembrino vive, con più oggetti, più NPC e più varietà.
 | Mod | Cosa fa | Stato |
 |-----|---------|-------|
 | [k2-jump-crouch-sprint](k2-jump-crouch-sprint/) | Sprint (Shift), accovacciamento a interruttore (C), capriola (Alt), salto funzionale (Spazio) | Sprint, capriola e accovacciamento **confermati in gioco**; salto visibile da fermo, da rifinire in corsa |
-| [k2-multi-fov](k2-multi-fov/) | Tre visuali della camera d'inseguimento — vicina, lontana, prima persona — con un tasto (N), più campo visivo per situazione | **Confermato in gioco**; il movimento resta attivo anche in prima persona, a differenza del free look nativo |
+| [k2-multi-fov](k2-multi-fov/) | Tre visuali della camera d'inseguimento — vicina, lontana, prima persona — con un tasto (N), più campo visivo per situazione. La prima persona e' ora ancorata agli **occhi misurati** del modello ([misure](k2-multi-fov/docs/eye-measurements.md)) | Le tre visuali **confermate in gioco**; l'ancoraggio agli occhi costruito, non ancora provato |
 | [k2-directional-movement](k2-directional-movement/) | Movimento a 8 direzioni relativo alla camera con WASD | **Confermato in gioco** dopo aver spostato il passo laterale su A/D dalle opzioni |
 | [k2-improved-collision](k2-improved-collision/) | Raggi di collisione più onesti, scivolamento lungo i muri, collisioni con ambiente e pavimento | In progettazione; audit dei raggi funzionante |
 | [k2-texture-pack](k2-texture-pack/) | Spawner di oggetti e NPC per area, varietà degli NPC generici, e in seguito texture e modelli | Spawner e varietà NPC **costruiti**, primo test in corso |
+| [k2-object-console](k2-object-console/) | Console vera (F10): catalogo di 1348 oggetti del gioco, li cerca e li piazza ai tuoi piedi, e li salva | **Costruito**, non ancora provato in gioco |
+| [k2-graphics](k2-graphics/) | Dump e sostituzione degli shader ARB, piu' una passata di post-processing (nitidezza, saturazione, contrasto, tinta) | **Costruito**, non ancora provato in gioco |
+| [k2-decor-variety](k2-decor-variety/) | 180 placeable nuovi: gli stessi modelli con texture desaturate e ritinte, senza una mesh nuova | **Costruito**, non ancora provato in gioco |
+| [k2-animations](k2-animations/) | Censimento delle 459 animazioni del gioco; recupera le 40 senza riga 2da (fra cui `walkback`) | **Costruito**, non ancora provato in gioco |
 | [k2-tesselation](k2-tesselation/), [k2-high-polygon-ebon-hawk](k2-high-polygon-ebon-hawk/) | Idee non ancora iniziate | — |
 
 Le funzioni di movimento, camera, spawner e varietà NPC vivono tutte dentro
